@@ -18,6 +18,7 @@ public class Test04 {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
+
     //@Ignore("Kullanilmamasi gerekiyor.")
     @Test
     public void titleTestForGoogle() {
