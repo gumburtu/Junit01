@@ -19,7 +19,7 @@ public class Test04 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    //@Ignore("Kullanilmamasi gerekiyor.")
+    @Ignore("Kullanilmamasi gerekiyor.")
     @Test
     public void titleTestForGoogle() {
         driver.get("https://www.google.com/");
